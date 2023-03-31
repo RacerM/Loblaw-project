@@ -9,7 +9,7 @@ function Header() {
       <img src={Headerlogo} className="headerlogo" alt="logo" />
       <div id="input_container">
         <input type="text" id="input" placeholder="search" />
-        <img src={searchicon} id="input_img" />
+        {/* <img src={searchicon} id="input_img" /> */}
       </div>
       <img src={cartlogo} className="cartlogo" alt="logo" />
       <button className="button" type="button">
