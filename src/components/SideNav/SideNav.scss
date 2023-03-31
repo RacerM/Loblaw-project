@@ -1,0 +1,61 @@
+.navbar {
+  width: 360px;
+  text-align: left;
+  border-right: 1px solid #f0f0f0;
+  &-signup {
+    background-color: #820007;
+    padding-top: 41px;
+    padding-left: 24px;
+    padding-bottom: 58px;
+    display: flex;
+    align-items: flex-start;
+    gap: 34px;
+  }
+  &-buttons {
+    text-align: right;
+    & button {
+      padding: 8px 24px;
+      border-radius: 11px;
+      border-style: none;
+      color: #820007;
+      font-weight: bold;
+      font-size: 17px;
+    }
+    & p {
+      color: white;
+      text-decoration: underline;
+      font-size: 17px;
+    }
+  }
+  &-categories {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding: 18px 24px;
+    gap: 5px;
+    border-bottom: 1px solid #f0f0f0;
+    & button {
+      height: 36px;
+      border: 1px black solid;
+      border-radius: 7px;
+      background-color: white;
+      font-weight: bold;
+      text-align: left;
+      font-size: 17px;
+      padding-left: 16px;
+    }
+    & .active {
+      background-color: black;
+      color: white;
+    }
+  }
+  &-items {
+    & li {
+      list-style: none;
+      font-weight: bold;
+      font-size: 17px;
+      line-height: 20px;
+      padding: 27px 0;
+    }
+  }
+}
