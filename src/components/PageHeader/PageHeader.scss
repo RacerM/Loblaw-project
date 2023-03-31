@@ -1,0 +1,72 @@
+@use "../../styles/mixins" as *;
+@use "../../styles/global" as *;
+.pageheader{
+    display: flex;
+    flex-direction: column;
+    margin:24px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+h1{
+    font-size: 60px;
+    line-height: 73px;
+    font-weight: bold;
+     margin: 16px;
+
+}
+p1{
+    font-size:20px;
+    line-height: 24px;
+    font-weight: 900;
+    width:140px;
+}
+p2{
+    font-size:17px;
+    line-height: 20px;
+    font-weight: 700;
+    margin: 16px;
+    align-items: flex-end;
+
+}
+
+.li{
+    font-size:17px;
+    line-height: 20px;
+    font-weight: 700;
+    border-radius:10px;
+    border-color:  6px solid $Grey;
+}
+.tags{
+        font-size:17px;
+    line-height: 20px;
+    font-weight: 700;
+    border-radius:10px;
+    border:  2px solid $Grey;
+    padding:4px 8px;
+
+}
+.bottom{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    align-items: baseline;
+    &-left{
+         display: flex;
+         width:50%;
+         align-items: baseline;
+    }
+    &-right{
+        display: flex;
+        align-items: baseline;
+    }
+
+}
+.button{
+    margin:0;
+    width: 254px;
+    height: 36px;
+}
