@@ -1,65 +1,74 @@
 @use "../../styles/mixins" as *;
 @use "../../styles/global" as *;
 
-.header{
-    background-color: $Black;
-    display: flex;
-    direction: row;
-    align-items: center;
-    &logo{
-        width: 201px;
-        height: 39px;
-        padding-top: 16px;
-        padding-bottom: 17px;
-        padding-left: 24px;
-        padding-right: 24px;
-    }
-}
-.cartlogo{
-    width: 27.5px;
-    height: 27.5px;
+.header {
+  background-color: $Black;
+  display: flex;
+  direction: row;
+  align-items: center;
+  &logo {
+    width: 201px;
+    height: 39px;
+    padding-top: 16px;
+    padding-bottom: 17px;
     padding-left: 24px;
     padding-right: 24px;
-    filter: invert(100%) sepia(3%) saturate(12%) hue-rotate(103deg) brightness(105%) contrast(105%);
+  }
 }
-.button{
-    box-sizing: content-box;
-    width: 225px;
-    height: 36px;
-    border-radius: 6px;
-    margin-top: 18px;
-    margin-bottom: 18px;
-    margin-right: 24px;
-    text-align: center;
-    vertical-align: middle;
-    background-color: $Red;
-    font-size: 17px;
-    line-height: 20px;
-    font-weight: bold;
-    color: white;
-     margin: auto;
-     padding:0;
+.cartlogo {
+  width: 27.5px;
+  height: 27.5px;
+  padding-left: 24px;
+  padding-right: 24px;
+  filter: invert(100%) sepia(3%) saturate(12%) hue-rotate(103deg)
+    brightness(105%) contrast(105%);
 }
-#input_container { 
-    position:relative;
-     padding:16px 0px; 
-     margin:0; }
-#input { 
-    margin:0; 
-    padding-left: 30px;
-    width: 861px;
-    height: 52px;
-    background: #FFFFFF;
-    border-radius: 10px;
- }
+.button {
+  box-sizing: content-box;
+  width: 225px;
+  height: 36px;
+  border-radius: 6px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  margin-right: 24px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: $Red;
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: bold;
+  color: white;
+  margin: auto;
+  padding: 0;
+  border-style: none;
+}
+#input_container {
+  //   position: relative;
+  padding: 16px 0px;
+  width: 100%;
+  margin: 0;
+}
+#input {
+  margin: 0;
+  padding-left: 30px;
+  width: 95%;
+  height: 52px;
+  background: #ffffff;
+  border-radius: 10px;
+  border-style: none;
+}
 
-#input_img { position:absolute; bottom:30px; left:850px; 
-    width: 28px;
-height: 28px; }
+#input_img {
+  position: absolute;
+  bottom: 30px;
+  left: 850px;
+  width: 28px;
+  height: 28px;
+}
 
-input::placeholder{
-    font-size: 17px;
-    line-height: 20px;
-    font-weight: bold;
-    color: $Black;
+input::placeholder {
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: bold;
+  color: $Black;
 }
