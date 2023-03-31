@@ -1,4 +1,5 @@
 import "./Home.scss";
+import PageHeader from "../../components/PageHeader/PageHeader";
 import ProduceItem from "../../components/ProduceItem/ProduceItem";
 import banana from "../../assets/Photos-PNG/Banana.png";
 import broccoli from "../../assets/Photos-PNG/Broccoli.png";
@@ -8,6 +9,7 @@ import avocado from "../../assets/Photos-PNG/Avocado.png";
 export default function Home() {
   return (
     <div className="main">
+      <PageHeader />
       <div className="category-header">
         <h2>Produce</h2>
         <p className="more">More...</p>
