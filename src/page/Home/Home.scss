@@ -1,0 +1,32 @@
+.main {
+  width: 100%;
+  margin: 0 62px;
+}
+
+h2 {
+  margin-top: 46.5px;
+  margin-bottom: 32px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 31px;
+  width: 100%;
+}
+
+.more {
+  color: #e1251b;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.category-header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.produce-items {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 76px;
+}

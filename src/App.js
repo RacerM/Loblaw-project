@@ -1,17 +1,16 @@
-
-import logo from "./logo.svg";
-import "./App.css";
 import Header from "./components/Header/Header";
-
+import Home from "./page/Home/Home";
 import SideNav from "./components/SideNav/SideNav";
-import "./App.css";
-
+import "./App.scss";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <SideNav />
+      <main>
+        <SideNav />
+        <Home />
+      </main>
     </div>
   );
 }
